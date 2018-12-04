@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudentTest.Models
 {
-    class StudentContext : DbContext
+    public class StudentContext : DbContext
     {
         public StudentContext(DbContextOptions<StudentContext> options) : base(options)
         {
